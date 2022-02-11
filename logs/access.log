@@ -1,0 +1,3 @@
+172.25.0.1 - - [11/Feb/2022:17:05:01 +0000] "GET / HTTP/1.1" 200 79911 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+172.25.0.1 - - [11/Feb/2022:17:05:01 +0000] "GET /favicon.ico HTTP/1.1" 404 555 "http://127.0.0.1:8000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
+172.25.0.1 - - [11/Feb/2022:17:05:46 +0000] "GET /phpmyadmin HTTP/1.1" 404 555 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36"
