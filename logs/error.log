@@ -240,3 +240,39 @@
 2022/02/11 18:44:33 [notice] 1#1: OS: Linux 5.10.76-linuxkit
 2022/02/11 18:44:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
 2022/02/11 18:44:33 [notice] 1#1: start worker processes
+2022/02/11 18:44:33 [notice] 1#1: start worker process 22
+2022/02/11 18:44:33 [notice] 1#1: start worker process 23
+2022/02/11 18:44:38 [error] 22#22: *2 connect() failed (111: Connection refused) while connecting to upstream, client: 192.168.80.1, server: hello.test, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.80.3:9000", host: "localhost:8000"
+2022/02/11 19:03:27 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/11 19:03:27 [notice] 22#22: gracefully shutting down
+2022/02/11 19:03:27 [notice] 23#23: gracefully shutting down
+2022/02/11 19:03:27 [notice] 22#22: exiting
+2022/02/11 19:03:27 [notice] 22#22: exit
+2022/02/11 19:03:27 [notice] 23#23: exiting
+2022/02/11 19:03:27 [notice] 23#23: exit
+2022/02/11 19:03:27 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/11 19:03:27 [notice] 1#1: worker process 22 exited with code 0
+2022/02/11 19:03:27 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/11 19:03:27 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/11 19:03:27 [notice] 1#1: worker process 23 exited with code 0
+2022/02/11 19:03:27 [notice] 1#1: exit
+2022/02/11 19:03:41 [notice] 1#1: using the "epoll" event method
+2022/02/11 19:03:41 [notice] 1#1: nginx/1.21.6
+2022/02/11 19:03:41 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/11 19:03:41 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/11 19:03:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/11 19:03:41 [notice] 1#1: start worker processes
+2022/02/11 19:03:41 [notice] 1#1: start worker process 22
+2022/02/11 19:03:41 [notice] 1#1: start worker process 23
+2022/02/11 19:05:21 [error] 22#22: *11 open() "/var/www/html/phpmyadmin" failed (2: No such file or directory), client: 192.168.96.1, server: hello.test, request: "GET /phpmyadmin HTTP/1.1", host: "localhost:8000"
+2022/02/11 19:09:09 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/11 19:09:09 [notice] 22#22: gracefully shutting down
+2022/02/11 19:09:09 [notice] 23#23: gracefully shutting down
+2022/02/11 19:09:09 [notice] 23#23: exiting
+2022/02/11 19:09:09 [notice] 22#22: exiting
+2022/02/11 19:09:09 [notice] 22#22: exit
+2022/02/11 19:09:09 [notice] 23#23: exit
+2022/02/11 19:09:09 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/11 19:09:09 [notice] 1#1: worker process 22 exited with code 0
+2022/02/11 19:09:09 [notice] 1#1: worker process 23 exited with code 0
+2022/02/11 19:09:09 [notice] 1#1: exit
