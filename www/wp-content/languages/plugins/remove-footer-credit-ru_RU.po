@@ -1,0 +1,178 @@
+# Translation of Plugins - Remove Footer Credit - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Remove Footer Credit - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-12-05 12:46:08+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Remove Footer Credit - Stable (latest release)\n"
+
+#: sections/plugins.php:30
+msgid "KB Support is the ultimate WordPress plugin for providing support and help desk services to your customers."
+msgstr "KB Support - это лучший плагин WordPress для предоставления поддержки и услуг службы поддержки вашим клиентам."
+
+#: sections/plugins.php:29
+msgid "KB Support – WordPress Help Desk"
+msgstr "KB Support – WordPress Help Desk"
+
+#: sections/plugins.php:24
+msgid "Check & Log email allows you to test if your WordPress installation is sending emails correctly and logs every email."
+msgstr "Check & Log email позволяет проверить, правильно ли ваша установка WordPress отправляет электронные письма, и регистрирует каждое письмо."
+
+#: sections/plugins.php:23
+msgid "Check & Log Email"
+msgstr "Check & Log Email"
+
+#: sections/plugins.php:18
+msgid "Download Monitor provides an interface for uploading and managing downloadable files (including support for multiple versions), inserting download links into posts, logging downloads and selling downloads!"
+msgstr "Download Monitor предоставляет интерфейс для загрузки и управления загружаемыми файлами (включая поддержку нескольких версий), вставки ссылок на загрузки в сообщения, регистрации загрузок и продажи загрузок!"
+
+#: sections/plugins.php:17
+msgid "Download Monitor"
+msgstr "Download Monitor"
+
+#: sections/plugins.php:12
+msgid "Easily collect and display testimonials on your website"
+msgstr "Легко собирать и отображать отзывы на вашем веб-сайте"
+
+#: sections/plugins.php:11
+msgid "Strong Testimonials"
+msgstr "Сильные отзывы"
+
+#. Author URI of the plugin
+msgid "https://wpchill.com"
+msgstr "https://wpchill.com"
+
+#. Author of the plugin
+msgid "WPChill"
+msgstr "WPChill"
+
+#. Translators: Welcome Screen Description.
+#: remove-footer-credit.php:194
+msgid "Remove or replace footer credits (or any text or HTML in page) before page is rendered. With this plugin there is no need to modify code such as footer.php which if done incorrectly can cause your site to break or new theme updates will stomp over your changes requiring you to remove footer credits on each update."
+msgstr "Удаление или замена титров подвала (или любого текста или HTML на странице) до того, как страница будет отображена. С этим плагином нет необходимости изменять код, такой как footer.php, который при неправильном использовании может привести к поломке сайта или новые обновления темы будут топтаться по вашим изменениям, требуя удаления титров подвала при каждом обновлении."
+
+#: remove-footer-credit.php:181
+msgid "Settings Saved"
+msgstr "Настройки сохранены"
+
+#: remove-footer-credit.php:126
+msgid "MachoThemes.com"
+msgstr "MachoThemes.com"
+
+#: remove-footer-credit.php:126
+msgid "Get WordPress help, plugins, themes and tips at "
+msgstr "Получите помощь, плагины, темы и советы WordPress на "
+
+#: remove-footer-credit.php:63
+msgid "Other Great Plugins"
+msgstr "Другие замечательные плагины"
+
+#: remove-footer-credit.php:59
+msgid "Settings"
+msgstr "Настройки"
+
+#: sections/plugins.php:94
+msgid "Find out more"
+msgstr "Узнать больше"
+
+#: sections/plugins.php:71
+msgid "Activate"
+msgstr "Активировать"
+
+#: sections/plugins.php:67 sections/plugins.php:92
+msgid "Activated"
+msgstr "Активировано"
+
+#: sections/plugins.php:58
+msgid "Install & Activate"
+msgstr "Установить и активировать"
+
+#: sections/plugins.php:6
+msgid "Modula is currently the easiest and fastest photo gallery plugin for WordPress. With its wizard you are able to build an image gallery in a few seconds, unlike many other WordPress gallery plugins."
+msgstr "Modula в настоящее время является самым простым и быстрым плагином фотогалереи для WordPress. С его мастером вы можете создать галерею изображений за несколько секунд, в отличие от многих других плагинов галереи WordPress."
+
+#: sections/plugins.php:5
+msgid "Modula - A WordPress Gallery Plugin"
+msgstr "Modula - плагин для галереи WordPress"
+
+#: sections/plugin-info.php:13
+msgid "to view instructions on how to use this plugin."
+msgstr "чтобы просмотреть инструкции по использованию этого плагина."
+
+#: sections/plugin-info.php:13
+msgid "Click here"
+msgstr "Нажмите сюда"
+
+#: sections/plugin-info.php:12
+msgid "Learn"
+msgstr "Изучите"
+
+#: sections/plugin-info.php:10
+msgid "here"
+msgstr "здесь"
+
+#: sections/plugin-info.php:10
+msgid "Need help using this plugin or want to report a bug? Contact me"
+msgstr "Нужна помощь в использовании этого плагина или хотите сообщить об ошибке? Свяжитесь со мной"
+
+#: remove-footer-credit.php:67 sections/plugin-info.php:9
+msgid "Get Help"
+msgstr "Получить помощь"
+
+#: sections/settings.php:55
+msgid "Get WordPress help, plugins, themes and tips at"
+msgstr "Получите помощь, плагины, темы и советы WordPress на"
+
+#: sections/settings.php:54
+msgid "The text below will appear at the bottom of the selected post/page."
+msgstr "Приведенный ниже текст появится в нижней части выбранной записи/страницы."
+
+#: sections/settings.php:46
+msgid "-- Pages --"
+msgstr "-- Страницы --"
+
+#: sections/settings.php:40
+msgid "-- Posts --"
+msgstr "-- Записи --"
+
+#: sections/settings.php:37
+msgid "Select a post/page:"
+msgstr "Выберите запись/страницу:"
+
+#: sections/settings.php:14
+msgid "Yes, I will support you!"
+msgstr "Да, я тебя поддержу!"
+
+#: sections/settings.php:13
+msgid "No, thanks."
+msgstr "Нет, спасибо."
+
+#: sections/settings.php:12
+msgid "Help keep this plugin free by providing one link back at the bottom of one of your posts/pages."
+msgstr "Помогите сохранить этот плагин бесплатным, предоставив одну ссылку внизу одного из ваших записей / страниц."
+
+#: sections/settings.php:11
+msgid "Step 3: Please support my work and spread the word (optional)"
+msgstr "Шаг 3: Поддержите мою работу и распространите информацию (необязательно)"
+
+#: sections/settings.php:9
+msgid "Step 2: Enter your own footer credit (one per line)"
+msgstr "Шаг 2: Введите собственный титул для подвала (по одному на строку)"
+
+#: sections/settings.php:7
+msgid "Step 1: Enter text/HTML to remove (one per line)"
+msgstr "Шаг 1: Введите текст/HTML для удаления (по одному на строку)"
+
+#. Description of the plugin
+msgid "A simple plugin to remove footer credits"
+msgstr "Простой плагин для удаления титров из подвала страницы"
+
+#. Plugin Name of the plugin
+#: remove-footer-credit.php:135 remove-footer-credit.php:191
+msgid "Remove Footer Credit"
+msgstr "Remove Footer Credit"

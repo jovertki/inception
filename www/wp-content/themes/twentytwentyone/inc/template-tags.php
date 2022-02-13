@@ -42,15 +42,7 @@ if ( ! function_exists( 'twenty_twenty_one_posted_by' ) ) {
 	 * @return void
 	 */
 	function twenty_twenty_one_posted_by() {
-		if ( ! get_the_author_meta( 'description' ) && post_type_supports( get_post_type(), 'author' ) ) {
-			echo '<span class="byline">';
-			printf(
-				/* translators: %s: Author name. */
-				esc_html__( 'By %s', 'twentytwentyone' ),
-				'<a href="' . esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ) . '" rel="author">' . esc_html( get_the_author() ) . '</a>'
-			);
-			echo '</span>';
-		}
+
 	}
 }
 
@@ -83,7 +75,7 @@ if ( ! function_exists( 'twenty_twenty_one_entry_meta_footer' ) ) {
 			}
 
 			// Posted on.
-			twenty_twenty_one_posted_on();
+			// twenty_twenty_one_posted_on();
 
 			// Edit post link.
 			edit_post_link(
@@ -96,31 +88,31 @@ if ( ! function_exists( 'twenty_twenty_one_entry_meta_footer' ) ) {
 				'</span><br>'
 			);
 
-			if ( has_category() || has_tag() ) {
+			// if ( has_category() || has_tag() ) {
 
-				echo '<div class="post-taxonomies">';
+			// 	echo '<div class="post-taxonomies">';
 
-				/* translators: Used between list items, there is a space after the comma. */
-				$categories_list = get_the_category_list( __( ', ', 'twentytwentyone' ) );
-				if ( $categories_list ) {
-					printf(
-						/* translators: %s: List of categories. */
-						'<span class="cat-links">' . esc_html__( 'Categorized as %s', 'twentytwentyone' ) . ' </span>',
-						$categories_list // phpcs:ignore WordPress.Security.EscapeOutput
-					);
-				}
+			// 	/* translators: Used between list items, there is a space after the comma. */
+			// 	$categories_list = get_the_category_list( __( ', ', 'twentytwentyone' ) );
+			// 	if ( $categories_list ) {
+			// 		printf(
+			// 			/* translators: %s: List of categories. */
+			// 			'<span class="cat-links">' . esc_html__( 'Categorized as %s', 'twentytwentyone' ) . ' </span>',
+			// 			$categories_list // phpcs:ignore WordPress.Security.EscapeOutput
+			// 		);
+			// 	}
 
-				/* translators: Used between list items, there is a space after the comma. */
-				$tags_list = get_the_tag_list( '', __( ', ', 'twentytwentyone' ) );
-				if ( $tags_list ) {
-					printf(
-						/* translators: %s: List of tags. */
-						'<span class="tags-links">' . esc_html__( 'Tagged %s', 'twentytwentyone' ) . '</span>',
-						$tags_list // phpcs:ignore WordPress.Security.EscapeOutput
-					);
-				}
-				echo '</div>';
-			}
+			// 	/* translators: Used between list items, there is a space after the comma. */
+			// 	$tags_list = get_the_tag_list( '', __( ', ', 'twentytwentyone' ) );
+			// 	if ( $tags_list ) {
+			// 		printf(
+			// 			/* translators: %s: List of tags. */
+			// 			'<span class="tags-links">' . esc_html__( 'Tagged %s', 'twentytwentyone' ) . '</span>',
+			// 			$tags_list // phpcs:ignore WordPress.Security.EscapeOutput
+			// 		);
+			// 	}
+			// 	echo '</div>';
+			// }
 		} else {
 
 			echo '<div class="posted-by">';
@@ -140,31 +132,31 @@ if ( ! function_exists( 'twenty_twenty_one_entry_meta_footer' ) ) {
 			);
 			echo '</div>';
 
-			if ( has_category() || has_tag() ) {
+			// if ( has_category() || has_tag() ) {
 
-				echo '<div class="post-taxonomies">';
+			// 	echo '<div class="post-taxonomies">';
 
-				/* translators: Used between list items, there is a space after the comma. */
-				$categories_list = get_the_category_list( __( ', ', 'twentytwentyone' ) );
-				if ( $categories_list ) {
-					printf(
-						/* translators: %s: List of categories. */
-						'<span class="cat-links">' . esc_html__( 'Categorized as %s', 'twentytwentyone' ) . ' </span>',
-						$categories_list // phpcs:ignore WordPress.Security.EscapeOutput
-					);
-				}
+			// 	/* translators: Used between list items, there is a space after the comma. */
+			// 	$categories_list = get_the_category_list( __( ', ', 'twentytwentyone' ) );
+			// 	if ( $categories_list ) {
+			// 		printf(
+			// 			/* translators: %s: List of categories. */
+			// 			'<span class="cat-links">' . esc_html__( 'Categorized as %s', 'twentytwentyone' ) . ' </span>',
+			// 			$categories_list // phpcs:ignore WordPress.Security.EscapeOutput
+			// 		);
+			// 	}
 
-				/* translators: Used between list items, there is a space after the comma. */
-				$tags_list = get_the_tag_list( '', __( ', ', 'twentytwentyone' ) );
-				if ( $tags_list ) {
-					printf(
-						/* translators: %s: List of tags. */
-						'<span class="tags-links">' . esc_html__( 'Tagged %s', 'twentytwentyone' ) . '</span>',
-						$tags_list // phpcs:ignore WordPress.Security.EscapeOutput
-					);
-				}
-				echo '</div>';
-			}
+			// 	/* translators: Used between list items, there is a space after the comma. */
+			// 	$tags_list = get_the_tag_list( '', __( ', ', 'twentytwentyone' ) );
+			// 	if ( $tags_list ) {
+			// 		printf(
+			// 			/* translators: %s: List of tags. */
+			// 			'<span class="tags-links">' . esc_html__( 'Tagged %s', 'twentytwentyone' ) . '</span>',
+			// 			$tags_list // phpcs:ignore WordPress.Security.EscapeOutput
+			// 		);
+			// 	}
+			// 	echo '</div>';
+			// }
 		}
 	}
 }

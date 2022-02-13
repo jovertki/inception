@@ -50,6 +50,7 @@ services:
             - "3306:3306"
         volumes:
             - ./mysql:/var/lib/mysql
+        command: "--init-file /var/lib/mysql/mysql_init.sql"
         # задаем пароль для root пользователя
         environment:
             MYSQL_ROOT_PASSWORD: secret
