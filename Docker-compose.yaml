@@ -4,6 +4,7 @@ services:
     nginx:
       # используем последний стабильный образ nginx
         image: nginx:latest
+        build: ./images/nginx
         container_name: nginx
         # маршрутизируем порты
         ports:
@@ -18,9 +19,10 @@ services:
             - project
         depends_on:
             - php
+        restart: unless-stopped
     php:
-        build: ./images/php
-    #   image: wordpress:php7.4-fpm
+    #    build: ./images/php
+        image: wordpress:php7.4-fpm
         container_name: site-fpm
         env_file: .env
         depends_on: 
@@ -42,8 +44,6 @@ services:
     mysql:
         image: mariadb
         container_name: mysql
-        ports:
-            - "3306:3306"
         volumes:
             - ./mysql:/var/lib/mysql
         command: "--init-file /var/lib/mysql/mysql_init.sql"
@@ -56,13 +56,13 @@ services:
       # используем последний стабильный образ phpmyadmin
         image: phpmyadmin/phpmyadmin
         container_name: pma
-        restart: always
+        restart: unless-stopped
         networks:
             - project
         ports:
             - 8183:80
         depends_on:
-            - nginx
+            - mysql
         environment:
             # прописываем название нашего MySQL хоста
             PMA_HOST: mysql
@@ -72,7 +72,3 @@ services:
 networks:
     project:
         driver: bridge
-
-volumes:
-  db_data: {}
-  wordpress_data: {}
