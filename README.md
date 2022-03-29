@@ -1,9 +1,14 @@
 # inception
 
-Сайт-портфолио на Docker-compose<br>
-Схема сети:<br>
-<p align="center">
-	<img src="./assets/diagram.jpeg" >
-</p>
+Блог на WordPress с использованием LEMP-стека
 
-Для запуска docker-compose up
+
+Схема Docker-контейнеров:
+
+![This is an image](./assets/diagram.jpeg)
+
+
+## Запуск
+```
+docker-compose up
+```
