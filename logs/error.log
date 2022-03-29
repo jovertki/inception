@@ -717,3 +717,253 @@
 2022/02/14 17:39:02 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
 2022/02/14 17:39:02 [notice] 1#1: OS: Linux 5.10.76-linuxkit
 2022/02/14 17:39:02 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/14 20:32:54 [notice] 1#1: using the "epoll" event method
+2022/02/14 20:32:54 [notice] 1#1: nginx/1.21.6
+2022/02/14 20:32:54 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/14 20:32:54 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/14 20:32:54 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/14 20:32:54 [notice] 1#1: start worker processes
+2022/02/14 20:32:54 [notice] 1#1: start worker process 24
+2022/02/14 20:32:54 [notice] 1#1: start worker process 25
+2022/02/14 20:37:16 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/14 20:37:16 [notice] 25#25: gracefully shutting down
+2022/02/14 20:37:16 [notice] 25#25: exiting
+2022/02/14 20:37:16 [notice] 24#24: gracefully shutting down
+2022/02/14 20:37:16 [notice] 24#24: exiting
+2022/02/14 20:37:16 [notice] 25#25: exit
+2022/02/14 20:37:16 [notice] 24#24: exit
+2022/02/14 20:37:16 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/14 20:37:16 [notice] 1#1: worker process 24 exited with code 0
+2022/02/14 20:37:16 [notice] 1#1: worker process 25 exited with code 0
+2022/02/14 20:37:16 [notice] 1#1: exit
+2022/02/14 20:39:37 [error] 19#19: *2 directory index of "/var/www/html/" is forbidden, client: 192.168.208.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:40:50 [error] 21#21: *2 directory index of "/var/www/html/" is forbidden, client: 192.168.224.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:41:27 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:41:28 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:41:28 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:41:29 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:42:45 [error] 63#63: *3 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:42:46 [error] 63#63: *3 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:42:47 [error] 63#63: *3 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:44:33 [error] 101#101: *6 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:44:35 [error] 101#101: *6 directory index of "/var/www/html/" is forbidden, client: 192.168.240.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:14 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:15 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:15 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:15 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:15 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:15 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:45:16 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.18.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:46:48 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:46:50 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:46:50 [error] 19#19: *1 directory index of "/var/www/html/" is forbidden, client: 172.19.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:48:17 [error] 20#20: *2 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:49:40 [error] 20#20: *4 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:52:21 [error] 20#20: *5 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:52:23 [error] 20#20: *5 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:52:23 [error] 20#20: *5 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/14 20:52:23 [error] 20#20: *5 directory index of "/var/www/html/" is forbidden, client: 172.20.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/15 15:31:06 [error] 20#20: *1 directory index of "/var/www/html/" is forbidden, client: 172.21.0.1, server: _, request: "GET / HTTP/1.1", host: "localhost:8000"
+2022/02/15 15:32:05 [notice] 1#1: using the "epoll" event method
+2022/02/15 15:32:05 [notice] 1#1: nginx/1.21.6
+2022/02/15 15:32:05 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/15 15:32:05 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/15 15:32:05 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/15 15:32:05 [notice] 1#1: start worker processes
+2022/02/15 15:32:05 [notice] 1#1: start worker process 24
+2022/02/15 15:32:05 [notice] 1#1: start worker process 25
+2022/02/15 16:20:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/15 16:20:18 [notice] 25#25: gracefully shutting down
+2022/02/15 16:20:18 [notice] 25#25: exiting
+2022/02/15 16:20:18 [notice] 24#24: gracefully shutting down
+2022/02/15 16:20:18 [notice] 24#24: exiting
+2022/02/15 16:20:18 [notice] 25#25: exit
+2022/02/15 16:20:18 [notice] 24#24: exit
+2022/02/15 16:20:18 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2022/02/15 16:20:18 [notice] 1#1: worker process 25 exited with code 0
+2022/02/15 16:20:18 [notice] 1#1: worker process 24 exited with code 0
+2022/02/15 16:20:18 [notice] 1#1: exit
+2022/02/15 16:20:31 [notice] 1#1: using the "epoll" event method
+2022/02/15 16:20:31 [notice] 1#1: nginx/1.21.6
+2022/02/15 16:20:31 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/15 16:20:31 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/15 16:20:31 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/15 16:20:31 [notice] 1#1: start worker processes
+2022/02/15 16:20:31 [notice] 1#1: start worker process 22
+2022/02/15 16:20:31 [notice] 1#1: start worker process 23
+2022/02/15 16:21:14 [notice] 1#1: signal 1 (SIGHUP) received from 46, reconfiguring
+2022/02/15 16:21:14 [notice] 1#1: reconfiguring
+2022/02/15 16:21:14 [emerg] 1#1: no "ssl_certificate" is defined for the "listen ... ssl" directive in /etc/nginx/conf.d/portfolio.conf:1
+2022/02/15 16:21:52 [notice] 1#1: signal 1 (SIGHUP) received from 58, reconfiguring
+2022/02/15 16:21:52 [notice] 1#1: reconfiguring
+2022/02/15 16:21:52 [notice] 1#1: using the "epoll" event method
+2022/02/15 16:21:52 [notice] 1#1: start worker processes
+2022/02/15 16:21:52 [notice] 1#1: start worker process 64
+2022/02/15 16:21:52 [notice] 1#1: start worker process 65
+2022/02/15 16:21:52 [notice] 22#22: gracefully shutting down
+2022/02/15 16:21:52 [notice] 23#23: gracefully shutting down
+2022/02/15 16:21:52 [notice] 22#22: exiting
+2022/02/15 16:21:52 [notice] 22#22: exit
+2022/02/15 16:21:52 [notice] 23#23: exiting
+2022/02/15 16:21:52 [notice] 23#23: exit
+2022/02/15 16:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/15 16:21:52 [notice] 1#1: worker process 23 exited with code 0
+2022/02/15 16:21:52 [notice] 1#1: worker process 22 exited with code 0
+2022/02/15 16:21:52 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/15 16:21:52 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/15 18:08:20 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/15 18:08:20 [notice] 65#65: gracefully shutting down
+2022/02/15 18:08:20 [notice] 64#64: gracefully shutting down
+2022/02/15 18:08:20 [notice] 65#65: exiting
+2022/02/15 18:08:20 [notice] 64#64: exiting
+2022/02/15 18:08:20 [notice] 64#64: exit
+2022/02/15 18:08:20 [notice] 65#65: exit
+2022/02/15 18:08:20 [notice] 1#1: signal 17 (SIGCHLD) received from 64
+2022/02/15 18:08:20 [notice] 1#1: worker process 64 exited with code 0
+2022/02/15 18:08:20 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/15 18:08:20 [notice] 1#1: signal 17 (SIGCHLD) received from 65
+2022/02/15 18:08:20 [notice] 1#1: worker process 65 exited with code 0
+2022/02/15 18:08:20 [notice] 1#1: exit
+2022/02/21 15:46:00 [notice] 1#1: using the "epoll" event method
+2022/02/21 15:46:00 [notice] 1#1: nginx/1.21.6
+2022/02/21 15:46:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/21 15:46:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/21 15:46:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/21 15:46:00 [notice] 1#1: start worker processes
+2022/02/21 15:46:00 [notice] 1#1: start worker process 22
+2022/02/21 15:46:00 [notice] 1#1: start worker process 23
+2022/02/21 15:47:04 [notice] 1#1: signal 1 (SIGHUP) received from 45, reconfiguring
+2022/02/21 15:47:04 [notice] 1#1: reconfiguring
+2022/02/21 15:47:04 [notice] 1#1: using the "epoll" event method
+2022/02/21 15:47:04 [notice] 1#1: start worker processes
+2022/02/21 15:47:04 [notice] 1#1: start worker process 51
+2022/02/21 15:47:04 [notice] 1#1: start worker process 52
+2022/02/21 15:47:05 [notice] 22#22: gracefully shutting down
+2022/02/21 15:47:05 [notice] 23#23: gracefully shutting down
+2022/02/21 15:47:05 [notice] 23#23: exiting
+2022/02/21 15:47:05 [notice] 23#23: exit
+2022/02/21 15:47:05 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/21 15:47:05 [notice] 1#1: worker process 23 exited with code 0
+2022/02/21 15:47:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 15:47:19 [notice] 22#22: exiting
+2022/02/21 15:47:19 [notice] 22#22: exit
+2022/02/21 15:47:19 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/21 15:47:19 [notice] 1#1: worker process 22 exited with code 0
+2022/02/21 15:47:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 15:47:28 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/21 15:47:28 [notice] 51#51: gracefully shutting down
+2022/02/21 15:47:28 [notice] 52#52: gracefully shutting down
+2022/02/21 15:47:28 [notice] 52#52: exiting
+2022/02/21 15:47:28 [notice] 51#51: exiting
+2022/02/21 15:47:28 [notice] 51#51: exit
+2022/02/21 15:47:28 [notice] 52#52: exit
+2022/02/21 15:47:28 [notice] 1#1: signal 17 (SIGCHLD) received from 51
+2022/02/21 15:47:28 [notice] 1#1: worker process 51 exited with code 0
+2022/02/21 15:47:28 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 15:47:28 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/02/21 15:47:28 [notice] 1#1: worker process 52 exited with code 0
+2022/02/21 15:47:28 [notice] 1#1: exit
+2022/02/21 15:47:42 [notice] 1#1: using the "epoll" event method
+2022/02/21 15:47:42 [notice] 1#1: nginx/1.21.6
+2022/02/21 15:47:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/21 15:47:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/21 15:47:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/21 15:47:42 [notice] 1#1: start worker processes
+2022/02/21 15:47:42 [notice] 1#1: start worker process 22
+2022/02/21 15:47:42 [notice] 1#1: start worker process 23
+2022/02/21 15:48:19 [notice] 1#1: signal 1 (SIGHUP) received from 46, reconfiguring
+2022/02/21 15:48:19 [notice] 1#1: reconfiguring
+2022/02/21 15:48:19 [notice] 1#1: using the "epoll" event method
+2022/02/21 15:48:19 [notice] 1#1: start worker processes
+2022/02/21 15:48:19 [notice] 1#1: start worker process 52
+2022/02/21 15:48:19 [notice] 1#1: start worker process 53
+2022/02/21 15:48:19 [notice] 23#23: gracefully shutting down
+2022/02/21 15:48:19 [notice] 23#23: exiting
+2022/02/21 15:48:19 [notice] 22#22: gracefully shutting down
+2022/02/21 15:48:19 [notice] 23#23: exit
+2022/02/21 15:48:19 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/02/21 15:48:19 [notice] 1#1: worker process 23 exited with code 0
+2022/02/21 15:48:19 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 15:48:38 [notice] 22#22: exiting
+2022/02/21 15:48:38 [notice] 22#22: exit
+2022/02/21 15:48:38 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/21 15:48:38 [notice] 1#1: worker process 22 exited with code 0
+2022/02/21 15:48:38 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 15:48:46 [error] 52#52: *6 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.19.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/02/21 18:43:39 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/21 18:43:39 [notice] 53#53: gracefully shutting down
+2022/02/21 18:43:39 [notice] 52#52: gracefully shutting down
+2022/02/21 18:43:39 [notice] 53#53: exiting
+2022/02/21 18:43:39 [notice] 52#52: exiting
+2022/02/21 18:43:39 [notice] 52#52: exit
+2022/02/21 18:43:39 [notice] 53#53: exit
+2022/02/21 18:43:39 [notice] 1#1: signal 17 (SIGCHLD) received from 52
+2022/02/21 18:43:39 [notice] 1#1: worker process 52 exited with code 0
+2022/02/21 18:43:39 [notice] 1#1: signal 29 (SIGIO) received
+2022/02/21 18:43:39 [notice] 1#1: signal 17 (SIGCHLD) received from 53
+2022/02/21 18:43:39 [notice] 1#1: worker process 53 exited with code 0
+2022/02/21 18:43:39 [notice] 1#1: exit
+2022/02/23 19:29:27 [notice] 1#1: using the "epoll" event method
+2022/02/23 19:29:27 [notice] 1#1: nginx/1.21.6
+2022/02/23 19:29:27 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/02/23 19:29:27 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/02/23 19:29:27 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/02/23 19:29:27 [notice] 1#1: start worker processes
+2022/02/23 19:29:27 [notice] 1#1: start worker process 22
+2022/02/23 19:29:27 [notice] 1#1: start worker process 23
+2022/02/23 19:29:52 [error] 23#23: *4 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/02/23 20:29:41 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/02/23 20:29:41 [notice] 22#22: gracefully shutting down
+2022/02/23 20:29:41 [notice] 23#23: gracefully shutting down
+2022/02/23 20:29:41 [notice] 22#22: exiting
+2022/02/23 20:29:41 [notice] 23#23: exiting
+2022/02/23 20:29:41 [notice] 22#22: exit
+2022/02/23 20:29:41 [notice] 23#23: exit
+2022/02/23 20:29:41 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/02/23 20:29:41 [notice] 1#1: worker process 22 exited with code 0
+2022/02/23 20:29:41 [notice] 1#1: worker process 23 exited with code 0
+2022/02/23 20:29:41 [notice] 1#1: exit
+2022/03/17 16:08:59 [notice] 1#1: using the "epoll" event method
+2022/03/17 16:08:59 [notice] 1#1: nginx/1.21.6
+2022/03/17 16:08:59 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/03/17 16:08:59 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/03/17 16:08:59 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/17 16:08:59 [notice] 1#1: start worker processes
+2022/03/17 16:08:59 [notice] 1#1: start worker process 22
+2022/03/17 16:08:59 [notice] 1#1: start worker process 23
+2022/03/17 16:09:27 [error] 23#23: *2 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/03/17 17:56:18 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/17 17:56:18 [notice] 22#22: gracefully shutting down
+2022/03/17 17:56:18 [notice] 23#23: gracefully shutting down
+2022/03/17 17:56:18 [notice] 22#22: exiting
+2022/03/17 17:56:18 [notice] 22#22: exit
+2022/03/17 17:56:18 [notice] 23#23: exiting
+2022/03/17 17:56:18 [notice] 23#23: exit
+2022/03/17 17:56:18 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/17 17:56:18 [notice] 1#1: worker process 22 exited with code 0
+2022/03/17 17:56:18 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/17 17:56:18 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/17 17:56:18 [notice] 1#1: worker process 23 exited with code 0
+2022/03/17 17:56:18 [notice] 1#1: exit
+2022/03/29 20:18:19 [notice] 1#1: using the "epoll" event method
+2022/03/29 20:18:19 [notice] 1#1: nginx/1.21.6
+2022/03/29 20:18:19 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/03/29 20:18:19 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/03/29 20:18:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/03/29 20:18:19 [notice] 1#1: start worker processes
+2022/03/29 20:18:19 [notice] 1#1: start worker process 22
+2022/03/29 20:18:19 [notice] 1#1: start worker process 23
+2022/03/29 20:18:41 [error] 22#22: *5 open() "/var/www/html/favicon.ico" failed (2: No such file or directory), client: 172.18.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8000", referrer: "http://localhost:8000/"
+2022/03/29 20:18:46 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/03/29 20:18:46 [notice] 23#23: gracefully shutting down
+2022/03/29 20:18:46 [notice] 23#23: exiting
+2022/03/29 20:18:46 [notice] 22#22: gracefully shutting down
+2022/03/29 20:18:46 [notice] 22#22: exiting
+2022/03/29 20:18:46 [notice] 23#23: exit
+2022/03/29 20:18:46 [notice] 22#22: exit
+2022/03/29 20:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2022/03/29 20:18:46 [notice] 1#1: worker process 23 exited with code 0
+2022/03/29 20:18:46 [notice] 1#1: signal 29 (SIGIO) received
+2022/03/29 20:18:46 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2022/03/29 20:18:46 [notice] 1#1: worker process 22 exited with code 0
+2022/03/29 20:18:46 [notice] 1#1: exit

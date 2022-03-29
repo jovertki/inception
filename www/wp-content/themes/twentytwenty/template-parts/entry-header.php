@@ -25,22 +25,22 @@ if ( is_singular() ) {
 		 *
 		 * @since Twenty Twenty 1.0
 		 *
-		 * @param bool   Whether to show the categories in header, Default true.
+		 * @param bool Whether to show the categories in header. Default true.
 		 */
 		$show_categories = apply_filters( 'twentytwenty_show_categories_in_entry_header', true );
 
-		// if ( true === $show_categories && has_category() ) {
-		// 	?>
+		if ( true === $show_categories && has_category() ) {
+			?>
 
-		// 	<div class="entry-categories">
-		// 		<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
-		// 		<div class="entry-categories-inner">
-		// 			<?php the_category( ' ' ); ?>
-		// 		</div><!-- .entry-categories-inner -->
-		// 	</div><!-- .entry-categories -->
+			<div class="entry-categories">
+				<span class="screen-reader-text"><?php _e( 'Categories', 'twentytwenty' ); ?></span>
+				<div class="entry-categories-inner">
+					<?php the_category( ' ' ); ?>
+				</div><!-- .entry-categories-inner -->
+			</div><!-- .entry-categories -->
 
-		// 	<?php
-		// }
+			<?php
+		}
 
 		if ( is_singular() ) {
 			the_title( '<h1 class="entry-title">', '</h1>' );

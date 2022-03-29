@@ -38,7 +38,16 @@ if ( ! function_exists( 'twentynineteen_posted_by' ) ) :
 	/**
 	 * Prints HTML with meta information about theme author.
 	 */
-	function twentynineteen_posted_by() {}
+	function twentynineteen_posted_by() {
+		printf(
+			/* translators: 1: SVG icon. 2: Post author, only visible to screen readers. 3: Author link. */
+			'<span class="byline">%1$s<span class="screen-reader-text">%2$s</span><span class="author vcard"><a class="url fn n" href="%3$s">%4$s</a></span></span>',
+			twentynineteen_get_icon_svg( 'person', 16 ),
+			__( 'Posted by', 'twentynineteen' ),
+			esc_url( get_author_posts_url( get_the_author_meta( 'ID' ) ) ),
+			esc_html( get_the_author() )
+		);
+	}
 endif;
 
 if ( ! function_exists( 'twentynineteen_comment_count' ) ) :
@@ -68,10 +77,10 @@ if ( ! function_exists( 'twentynineteen_entry_footer' ) ) :
 		if ( 'post' === get_post_type() ) {
 
 			// Posted by.
-			//twentynineteen_posted_by();
+			twentynineteen_posted_by();
 
 			// Posted on.
-			//twentynineteen_posted_on();
+			twentynineteen_posted_on();
 
 			/* translators: Used between list items, there is a space after the comma. */
 			$categories_list = get_the_category_list( __( ', ', 'twentynineteen' ) );
@@ -199,8 +208,7 @@ if ( ! function_exists( 'twentynineteen_comment_form' ) ) :
 
 			comment_form(
 				array(
-					'logged_in_as' => null,
-					'title_reply'  => null,
+					'title_reply' => null,
 				)
 			);
 		}
