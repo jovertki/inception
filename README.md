@@ -1,14 +1,15 @@
 # inception
 
-Блог на WordPress с использованием LEMP-стека
+Wordpress created blog hosted on LEMP stack
 
 
-Схема Docker-контейнеров:
+Docker containers diagram:
+
 
 ![This is an image](./assets/diagram.jpeg)
 
 
-## Запуск
+## Launch
 ```
 docker-compose up
 ```
